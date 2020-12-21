@@ -12,7 +12,7 @@ class Todo {
     }
 
     addToStorage() {
-        localStorage.setItem(`toDoList`, JSON.stringify([...this.todoData]));
+        localStorage.setItem(`todoList`, JSON.stringify([...this.todoData]));
     }
 
     render() {
